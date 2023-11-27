@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    text-size-adjust: 16%;
+}
+
+.menu li a:hover {
+    color: #000;
+    transition: all .3s;
+}
+
+.submenu {
+    position: absolute;
+    z-index: 1;
+    background: #333;
+    width: 120%;
+}
+.menu {
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+}
+.menu a:hover {
+    background-color: #39b5f3;
+}
+
+
+
+
+
+
+
+
+
+
+
