@@ -15,7 +15,6 @@ if ($mibusqueda != NULL) {
         <input type='submit' name='search' value='Enviar'>
     </form>");
 }
-
 $resultado = mysqli_query($conexion, $consulta);
 
 echo "<table>";
